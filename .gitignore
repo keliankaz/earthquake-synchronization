@@ -3,3 +3,4 @@
 *.png
 
 japan_analysis/Nankai_output/*
+*__pycache__*
