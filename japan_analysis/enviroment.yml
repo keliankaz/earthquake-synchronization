@@ -1,0 +1,13 @@
+name: nankai  
+channels:
+  - pytorch
+  - defaults
+dependencies:  
+  - python=3.9
+  - ipywidgets
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - seaborn
+  - pygmt
