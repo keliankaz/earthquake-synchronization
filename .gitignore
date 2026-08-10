@@ -4,3 +4,6 @@
 
 japan_analysis/Nankai_output/*
 *__pycache__*
+.vscode/settings.json
+.gitignore
+*/exploratory/*
