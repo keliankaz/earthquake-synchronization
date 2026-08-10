@@ -1,12 +1,12 @@
-subduction_zone_segment,L1_raw,L2_raw,measurement_distance,map_distance,sync,note
-Nankai, 23.4, 59.5, 42.9, 200, 0
-Nankai, 59.5, 53.7, 42.9, 200, 1
-Nankai, 53.7, 21, 42.9, 200, 0, "unclear whether this is a segmentation barrier as most ruptures through it"
-Nankai, 21, 22.3, 42.9, 200, 0, "sparce data"
-Japan_trench, 91.7, 74, 39.5, 200, 0
-Japan_trench, 74, 54.6, 39.5, 200, 0
-Japan_trench, 54.6, 12, 39.5, 200, 0
-Japan_trench, 12, 18.6, 39.5, 200, 0
-Japan_trench, 18.6, 29.5, 39.5, 200, 0
-Japan_trench, 29.5, 30.2, 39.5, 200, 1
-Japan_trench, 30.2, 57.7, 39.5, 200, 0
+subduction_zone_segment,L1_raw,L2_raw,measurement_distance,map_distance,sync,R,note
+Nankai,23.4,59.5,42.9,200,0,0.3,
+Nankai,59.5,53.7,42.9,200,1,1.00,
+Nankai,53.7,21,42.9,200,0,0.47," ""unclear whether this is a segmentation barrier as most ruptures through it"""
+Nankai,21,22.3,42.9,200,0,0.31," ""sparce data"""
+Japan_trench,91.7,74,39.5,200,0,0.22,
+Japan_trench,74,54.6,39.5,200,0,0.34,
+Japan_trench,54.6,12,39.5,200,0,0.3,
+Japan_trench,12,18.6,39.5,200,0,0.3,
+Japan_trench,18.6,29.5,39.5,200,0,0.17,
+Japan_trench,29.5,30.2,39.5,200,1,0.97,
+Japan_trench,30.2,57.7,39.5,200,0,0.38,
