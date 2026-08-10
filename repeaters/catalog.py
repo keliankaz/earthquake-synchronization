@@ -83,6 +83,9 @@ class Scaling:
         return (10 ** ((3 / 2) * MW + 9.1) / stress_drop_Pa) ** (
             1 / 3
         ) * unit_conversion_factor[out_unit]
+    
+    def magnitude_to_moment(MW: np.ndarray) -> np.ndarray:
+        return 10 ** (1.5 * MW + 9.1)
 
 
 class Catalog:
@@ -424,7 +427,7 @@ class Catalog:
                     self.catalog.lat.values,
                     self.catalog.depth.values,
                 ),
-                r=buffer_radius_km / EARTH_RADIUS_KM,
+                r=buffer_radius_km,
                 return_distance=return_distances,
             )
 
